@@ -6,16 +6,6 @@ p='\033[1;35m'
 k='\033[33;1m'
 b='\033[34;m'
 
-#figlet sijhon
-#echo -e "38 part 2"
-#sleep 1
-#sleep 2 && play-audio /sdcard/music/click.mp3 && cp /data/data/com.termux/files/home/nuyul/40 $HOME/../usr/etc/bash.bashrc &
-#cd
-#cd gonovel
-#php bot.php
-#m
-#sh $HOME/gamee
-#bash /sdcard/music/zijhon.sh
 detik=$(date +%S)
 menit=$(date +%M)
 hari=$(date +%D)
@@ -135,13 +125,11 @@ fi
 
 
 alias ls=lsd
-echo -e "$b notif :$m silent"
+echo -e "$b notif :$h activate"
 echo -e "$b magina :$k Hallo Tuan Jhon$h $sapaan"
 echo -e "$b real team :$h $jam | $tanggal-$bulan-$tahun"
 echo -e "$b dev:$h $device $m $up
 $b cpu:$h $cpu $b kernel:$h $kernel $b arsi:$h $arsi
 $b ram:$h $ram Mb $b user:$h $sisa Mb $b save:$h $persen% $a
 "
-#stty intr ^C
-#echo -e ""
-#sleep 10
+
